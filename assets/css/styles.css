@@ -1,0 +1,310 @@
+@font-face {
+ font-family: "Open Sans";
+ src: url("../fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+      url("../fonts/OpenSans-Regular-webfont.woff") format("woff"),
+      url('../fonts/GTAmerica-Regular.ttf') format('truetype'),
+      url('../fonts/GTAmerica-Regular.svg#GTAmerica-Regular') format('svg'),
+      url('../fonts/GTAmerica-Regular.eot?#iefix') format('embedded-opentype');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wix Madefor Display';
+    src: url('../fonts/WixMadeforDisplay-Bold.eot');
+    src: url('../fonts/WixMadeforDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/WixMadeforDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/WixMadeforDisplay-Bold.woff') format('woff'),
+        url('../fonts/WixMadeforDisplay-Bold.ttf') format('truetype'),
+        url('../fonts/WixMadeforDisplay-Bold.svg#WixMadeforDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Wix Madefor Display';
+    src: url('../fonts/WixMadeforDisplay-Regular.eot');
+    src: url('../fonts/WixMadeforDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/WixMadeforDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/WixMadeforDisplay-Regular.woff') format('woff'),
+        url('../fonts/WixMadeforDisplay-Regular.ttf') format('truetype'),
+        url('../fonts/WixMadeforDisplay-Regular.svg#WixMadeforDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html, body {
+	position: relative;
+	height: 100%;
+	overflow-x: hidden !important;
+}
+
+body {
+	color: white;
+	background-color: #3A6AF6;
+	font-family: arial, sans;
+	-webkit-overflow-scrolling:  touch;
+  	-webkit-font-smoothing:      antialiased;
+  	font-family: 'Wix Madefor Display', Arial, sans-serif;
+  	font-weight: normal;
+}
+
+.layout {
+	position: relative;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 25px;
+	text-align: center;
+}
+
+.logo {
+	padding: 90px 0;
+}
+
+.logo-svg {
+	width: 160px;
+}
+
+.logo-tagline {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #77E7FD;
+	margin-top: 10px;
+}
+
+h1 {
+	font-size: 34px;
+	line-height: 40px;
+	margin-bottom: 24px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 22px;
+	line-height: 32px;
+	margin: 0 auto;
+	margin-bottom: 48px;
+}
+
+.signature {
+	display: block;
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+.signature span {
+	display: block;
+	font-size: 17px;
+	line-height: 25px;
+	padding-top: 90px;
+	padding-bottom: 60px;
+}
+
+.signature a {
+	color: white;
+	text-decoration: none;
+}
+
+.signature a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.cta-wrapper {
+	/*display: flex;
+	align-items: center;
+  	justify-content: center;*/
+}
+
+.mc-field-group label {
+	display: none;
+}
+
+#mce-EMAIL {
+	/*cursor: pointer;*/
+  	display:           inline-block;
+  	text-decoration:   none;
+  	white-space:       nowrap;
+  	vertical-align:    middle;
+  	border:            none;
+  	user-select:       none;
+  	-webkit-appearance: none;
+  	-moz-appearance:    none;
+  	appearance:         none;
+	background-color: white;
+	color: #25387A;
+	padding: 20px 25px;
+	border-radius: 30px;
+	font-size: 17px;
+	line-height: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+#mce-EMAIL:focus,
+#mce-EMAIL:active,
+.btn-primary:focus,
+.btn-primary:active {
+	text-decoration: none;
+    outline:         0;
+}
+
+#mce-EMAIL:hover {
+	background-color: #F5F5F5;
+}
+
+.btn-primary {
+	cursor: pointer;
+  	display:           inline-block;
+  	text-decoration:   none;
+  	white-space:       nowrap;
+  	vertical-align:    middle;
+  	border:            none;
+  	user-select:       none;
+  	-webkit-appearance: none;
+  	-moz-appearance:    none;
+  	appearance:         none;
+	background-color: #FCEC4F;
+	color: #25387A;
+	padding: 20px 30px;
+	border-radius: 30px;
+	font-size: 17px;
+	line-height: 20px;
+	text-align: center;
+	font-weight: bold;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.btn-primary:hover {
+	background-color: #E7DB53;
+}
+
+.img-svg {
+	position: fixed;
+}
+
+.img-corail-1 {
+	top: 0;
+	left: 0;
+	opacity: .5;
+}
+.img-star {
+	top: -3%;
+	left: 2%;
+}
+.img-leaf {
+	bottom: -20%;
+	left: -40%;
+}
+.img-fishes {
+	display: none;
+}
+.img-dots {
+	top: -20%;
+	right: -30%;
+}
+.img-corail-2 {
+	bottom: -10%;
+	right: -80%;
+}
+
+@media screen and (min-width: 520px) {
+	.logo-svg {
+		width: auto;
+	}
+	h1 {
+		font-size: 44px;
+		line-height: 48px;
+		margin-bottom: 24px;
+	}
+	h2 {
+		font-size: 26px;
+		line-height: 40px;
+		max-width: 800px;
+	}
+	.cta-wrapper {
+		display: flex;
+		align-items: center;
+  		justify-content: center;
+	}
+	.btn-primary {
+		border-radius: 0 30px 30px 0;
+		margin-top: 0;
+		width: auto;
+	}
+	#mce-EMAIL {
+		border-radius: 30px 0 0 30px;
+		width: auto;
+		min-width: 280px;
+		text-align: left;
+	}
+	.img-corail-1 {
+		top: 0;
+		left: 0;
+		opacity: 1;
+	}
+	.img-star {
+		top: 0;
+		left: 10%;
+	}
+	.img-leaf {
+		bottom: -10%;
+		left: -20%;
+	}
+	.img-corail-2 {
+		bottom: -10%;
+		right: -30%;
+	}
+	.img-fishes {
+		display: block;
+		bottom: 0;
+		right: -20%;
+	}
+	.img-dots {
+		top: -10%;
+		right: -10%;
+	}
+	
+}
+
+@media screen and (min-width: 960px) {
+	.signature {
+		position: absolute;
+		bottom: 0;
+		opacity: 0.5;
+		padding-bottom: 0;
+	}
+	.img-corail-1 {
+		top: 0;
+		left: 0;
+		opacity: 1;
+	}
+	.img-star {
+		top: 0;
+		left: 10%;
+	}
+	.img-leaf {
+		bottom: 0;
+		left: -2%;
+	}
+	.img-fishes {
+		bottom: 0;
+		right: 0;
+	}
+	.img-dots {
+		top: 0;
+		right: 0;
+	}
+	.img-corail-2 {
+		bottom: 0;
+		right: -5%;
+	}
+}
