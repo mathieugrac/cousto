@@ -5,22 +5,26 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-<!--     <meta property="og:type" content="website">
-    <meta property="og:url" content="<%= 'https://' + data.global.url %>">
-    <meta property="og:title" content="<%= data.global.share_title %>">
-    <meta property="og:description" content="<%= data.global.share_desc %>">
-    <meta property="og:image" content="<%= data.global.share_img %>" /> -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://cousto.io">
+    <meta property="og:title" content="Cousto | The UX Research Expedition">
+    <meta property="og:description" content="…">
+    <meta property="og:image" content="assets/img/share-cousto.png" />
 
-<!--     <link rel="apple-touch-icon" href="<%= data.global.img_apple_icon %>" sizes="180x180">
-    <link rel="icon" type="image/png" href="<%= data.global.img_favicon_16 %>" sizes="16x16">
-    <link rel="icon" type="image/png" href="<%= data.global.img_favicon_32 %>" sizes="32x32"> -->
+    <link rel="apple-touch-icon" href="assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" type="image/png" href="assets/img/favicons/favicon_16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="assets/img/favicons/favicon_32.png" sizes="32x32"> 
+    <link rel="icon" type="image/png" href="assets/img/favicons/favicon_48.png" sizes="48x48"> 
 
     <title>Cousto</title>
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+    <!-- <link href="http://cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css"> -->
     <link rel="stylesheet" href="assets/css/styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type='text/javascript' src='http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=<%= data.global.google_id %>"></script>
     <script>
@@ -31,15 +35,15 @@
     </script> -->
 </head>
 <body>
-    <img src ="assets/img/corail-1.svg" class="img-svg img-corail-1" alt="corail-1"/>
-    <img src ="assets/img/star.svg" class="img-svg img-star" alt="star"/>
-    <img src ="assets/img/leaf.svg" class="img-svg img-leaf" alt="leaf"/>
-    <img src ="assets/img/fishes.svg" class="img-svg img-fishes" alt="fishes"/>
-    <img src ="assets/img/dots.svg" class="img-svg img-dots" alt="dots"/>
-    <img src ="assets/img/corail-2.svg" class="img-svg img-corail-2" alt="corail-2"/>
+    <img src ="assets/img/illustrations/corail-1.svg" class="img-svg img-corail-1" alt="corail-1"/>
+    <img src ="assets/img/illustrations/star.svg" class="img-svg img-star" alt="star"/>
+    <img src ="assets/img/illustrations/leaf.svg" class="img-svg img-leaf" alt="leaf"/>
+    <img src ="assets/img/illustrations/fishes.svg" class="img-svg img-fishes" alt="fishes"/>
+    <img src ="assets/img/illustrations/dots.svg" class="img-svg img-dots" alt="dots"/>
+    <img src ="assets/img/illustrations/corail-2.svg" class="img-svg img-corail-2" alt="corail-2"/>
     <div class="layout">
         <div class="logo">
-            <img src ="assets/img/logo-white.svg" class="logo-svg" alt="logo-cousto"/>
+            <img src ="assets/img/illustrations/logo-white.svg" class="logo-svg" alt="logo-cousto"/>
             <div class="logo-tagline">The UX Research Expedition</div>
         </div>
         <h1>Dive into the fundamentals of UX Research.</h1>
@@ -47,26 +51,20 @@
         <div class="cta">
 
             <div id="mc_embed_signup">
-                <form action="https://cousto.us7.list-manage.com/subscribe/post?u=773ebdb022a2a13c1289e7b7f&amp;id=963f248186" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>
-                        <div class="cta-wrapper">
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                                <input type="text" name="b_773ebdb022a2a13c1289e7b7f_963f248186" tabindex="-1" value="">
-                            </div>
-                            <input type="email" value="" placeholder="Your Email" name="EMAIL" class="required email input" id="mce-EMAIL">
-                            <div class="clear">
-                                <input type="submit" value="Keep me posted" name="subscribe" id="mc-embedded-subscribe" class="btn-primary">
-                            </div>
-                        </div>
-                    </div>
-                </form>
+    <form action="https://cousto.us7.list-manage.com/subscribe/post?u=773ebdb022a2a13c1289e7b7f&amp;id=963f248186" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll" class="cta-wrapper">
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your Email" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_773ebdb022a2a13c1289e7b7f_963f248186" tabindex="-1" value="">
             </div>
-            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-            <!--End mc_embed_signup-->
+            <div class="clear">
+                <input type="submit" value="Keep me posted" name="subscribe" id="mc-embedded-subscribe" class="btn-primary">
+            </div>
+        </div>
+    </form>
+</div>
+            
         </div>
     </div>
     <div class="signature">
