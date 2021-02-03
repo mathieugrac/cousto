@@ -195,6 +195,11 @@ h2 {
   background-color: transparent !important;
 }
 
+#mc_embed_signup div.response {
+	padding: 0;
+	margin: 0;
+}
+
 #mce-responses {
   text-align: left;
   position: absolute;
@@ -207,11 +212,11 @@ h2 {
 
 #mce-success-response,
 #mce-error-response {
-  color: white;
   font-family: 'Wix Madefor Display';
   font-size: 15px;
   font-weight: bold;
   background-color: transparent;
+  color: white;
 }
 
 #mc_embed_signup #mce-success-response {
@@ -229,6 +234,7 @@ h2 {
 #mc_embed_signup input.mce_inline_error {
   border-color: #F86C6C !important;
 }
+
 
 /* --------- */
 
@@ -354,15 +360,3 @@ h2 {
 	}
 }
 
-#mc_embed_signup div.response {
-	padding: 0;
-	margin: 0;
-}
-
-#mc_embed_signup #mce-success-response {
-	color: white;
-}
-
-#mc_embed_signup #mce-error-response {
-	color: #F85B54;
-}
