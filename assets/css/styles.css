@@ -195,28 +195,42 @@ h2 {
   background-color: transparent !important;
 }
 
-#mc_embed_signup input.mce_inline_error {
-  border-color: #F86C6C !important;
-}
-
 #mce-responses {
-  margin-top: 10px;
   text-align: left;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
 }
 
 #mce-success-response,
 #mce-error-response {
   color: white;
-  margin-bottom: 20px;
-  color: white;
   font-family: 'Wix Madefor Display';
-  font-size: 17px;
-  font-weight: normal;
+  font-size: 15px;
+  font-weight: bold;
   background-color: transparent;
 }
 
-/* --------- */
+#mc_embed_signup #mce-success-response {
+    color: #FCEC4F;
+}
 
+#mc_embed_signup #mce-error-response {
+    color: white;
+}
+
+#mce-EMAIL.valid {
+
+}
+
+#mc_embed_signup input.mce_inline_error {
+  border-color: #F86C6C !important;
+}
+
+/* --------- */
 
 
 .img-svg {
